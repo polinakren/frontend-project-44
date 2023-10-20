@@ -1,2 +1,5 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/polinakren/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/polinakren/frontend-project-44/actions)
+
+## CodeClimate
+[![Maintainability](https://api.codeclimate.com/v1/badges/995b1a6afa32e9e9cc6b/maintainability)](https://codeclimate.com/github/polinakren/frontend-project-44/maintainability)
