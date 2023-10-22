@@ -26,6 +26,11 @@
 ### Запуск игры: __"brain-progression"__
 [![asciicast](https://asciinema.org/a/N6lo3I0DENbIppq4S79h73rWy.svg)](https://asciinema.org/a/N6lo3I0DENbIppq4S79h73rWy)
 
+## Игра: "Простое число?"
+### Описание игры:
+Пользователь получает случайно число. И ему нужно ответить "yes", если число простое, или "no" — если не простое.
+### Запуск игры: __"brain-prime"__
+[![asciicast](https://asciinema.org/a/OOBwsMZFo3UaBnIYkDBjrUFoP.svg)](https://asciinema.org/a/OOBwsMZFo3UaBnIYkDBjrUFoP)
 
 ## CodeClimate
 [![Maintainability](https://api.codeclimate.com/v1/badges/995b1a6afa32e9e9cc6b/maintainability)](https://codeclimate.com/github/polinakren/frontend-project-44/maintainability)
