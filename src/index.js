@@ -12,7 +12,7 @@ const main = (rule, beginRound) => {
   for (let i = 1; i <= attempts; i += 1) {
     const [question, correctAnswer] = beginRound();
 
-    console.log(question);
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer !== correctAnswer) {
