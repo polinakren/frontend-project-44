@@ -20,5 +20,12 @@
 ### Запуск игры: __"brain-gcd"__
 [![asciicast](https://asciinema.org/a/H6uOTR84mVNUjvJWkICM6aSbT.svg)](https://asciinema.org/a/H6uOTR84mVNUjvJWkICM6aSbT)
 
+## Игра: "Арифметическая прогрессия"
+### Описание игры:
+Пользователь получает ряд чисел, образующий арифметическую прогрессию, в котором одно число заменено двумя точками. Игрок должен определить это число.
+### Запуск игры: __"brain-progression"__
+[![asciicast](https://asciinema.org/a/N6lo3I0DENbIppq4S79h73rWy.svg)](https://asciinema.org/a/N6lo3I0DENbIppq4S79h73rWy)
+
+
 ## CodeClimate
 [![Maintainability](https://api.codeclimate.com/v1/badges/995b1a6afa32e9e9cc6b/maintainability)](https://codeclimate.com/github/polinakren/frontend-project-44/maintainability)
