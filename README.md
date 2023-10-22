@@ -1,5 +1,51 @@
-### Hexlet tests and linter status:
+# Проект "Игры разума"
+
 [![Actions Status](https://github.com/polinakren/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/polinakren/frontend-project-44/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/995b1a6afa32e9e9cc6b/maintainability)](https://codeclimate.com/github/polinakren/frontend-project-44/maintainability)
+
+## Описание проекта
+__"Игры разума"__ : проект состоит из 5 консольных игр. Каждая игра задает 3 вопроса, на которые нужо дать правильные ответы. Если вы ответили на все вопросы, то вы прошли игру. В случае неправильного ответа игра завершается.
+
+### Установка
+
+```
+npm i
+```
+```
+npm link
+```
+
+## Инструкция по запуску:
+
+Запутить игру "Проверка на чётность":
+
+```
+brain-even
+```
+
+Запутить игру "Калькулятор":
+
+```
+brain-calc
+```
+
+Запутить игру "Наибольший общий делитель":
+
+```
+brain-gcd
+```
+
+Запутить игру "Арифметическая прогрессия":
+
+```
+brain-progression
+```
+
+Запутить игру "Простое число?":
+
+```
+brain-prime
+```
 
 ## Игра: "Проверка на четность"
 ### Описание игры:
@@ -31,6 +77,3 @@
 Пользователь получает случайно число. И ему нужно ответить "yes", если число простое, или "no" — если не простое.
 ### Запуск игры: __"brain-prime"__
 [![asciicast](https://asciinema.org/a/OOBwsMZFo3UaBnIYkDBjrUFoP.svg)](https://asciinema.org/a/OOBwsMZFo3UaBnIYkDBjrUFoP)
-
-## CodeClimate
-[![Maintainability](https://api.codeclimate.com/v1/badges/995b1a6afa32e9e9cc6b/maintainability)](https://codeclimate.com/github/polinakren/frontend-project-44/maintainability)
