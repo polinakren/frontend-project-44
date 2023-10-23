@@ -55,28 +55,28 @@ brain-prime
 ### Game Description:
 The user receives a random number and must respond with "yes" if the number is even or "no" if it is odd.
 ### Installation and launch of the Game: 
-[![asciicast](https://asciinema.org/a/Iemv1n64oexx8YAKRdC9I4Wzt.svg)](https://asciinema.org/a/Iemv1n64oexx8YAKRdC9I4Wzt)
+[![asciicast](https://asciinema.org/a/YjBFscrJW2pZP6M67YocKEohc.svg)](https://asciinema.org/a/YjBFscrJW2pZP6M67YocKEohc)
 
 ## 🚀 Game: "Calculator"
 ### Game Description:
 The user receives a random mathematical expression, for example, 35 + 16, which they need to calculate and write down the correct answer.
 ### Launch of the Game: 
-[![asciicast](https://asciinema.org/a/b7LNt4BdKHGG6u1WnA9vbRdfX.svg)](https://asciinema.org/a/b7LNt4BdKHGG6u1WnA9vbRdfX)
+[![asciicast](https://asciinema.org/a/jeq2pRQBrXsrxAs5qA7GtNpnA.svg)](https://asciinema.org/a/jeq2pRQBrXsrxAs5qA7GtNpnA)
 
 ## 🚀 Game: "Greatest Common Divisor"
 ### Game Description:
 The user receives two random numbers, for example, 25 and 50. They must calculate and enter the greatest common divisor of these numbers.
 ### Launch of the Game: 
-[![asciicast](https://asciinema.org/a/H6uOTR84mVNUjvJWkICM6aSbT.svg)](https://asciinema.org/a/H6uOTR84mVNUjvJWkICM6aSbT)
+[![asciicast](https://asciinema.org/a/ab3EvYezxBezVGGiKGt92l105.svg)](https://asciinema.org/a/ab3EvYezxBezVGGiKGt92l105)
 
 ## 🚀 Game: "Arithmetic Progression"
 ### Game Description:
 The user is given a series of numbers forming an arithmetic progression, in which one number is replaced by two dots. The player must determine this number.
 ### Launch of the Game: 
-[![asciicast](https://asciinema.org/a/N6lo3I0DENbIppq4S79h73rWy.svg)](https://asciinema.org/a/N6lo3I0DENbIppq4S79h73rWy)
+[![asciicast](https://asciinema.org/a/P3SpImBHKR7OXjBXdrOBsFjB8.svg)](https://asciinema.org/a/P3SpImBHKR7OXjBXdrOBsFjB8)
 
 ## 🚀 Game: "Prime Number?"
 ### Game Description:
 The user receives a random number and must respond with "yes" if the number is prime, or "no" if it is not prime.
 ### Launch of the Game: 
-[![asciicast](https://asciinema.org/a/OOBwsMZFo3UaBnIYkDBjrUFoP.svg)](https://asciinema.org/a/OOBwsMZFo3UaBnIYkDBjrUFoP)
+[![asciicast](https://asciinema.org/a/7WB1DENCRDN4oHB4kvl6mkAKN.svg)](https://asciinema.org/a/7WB1DENCRDN4oHB4kvl6mkAKN)
