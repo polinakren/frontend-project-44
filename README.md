@@ -1,79 +1,82 @@
-# Проект "Игры разума"
+# Brain Games
 
 [![Actions Status](https://github.com/polinakren/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/polinakren/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/995b1a6afa32e9e9cc6b/maintainability)](https://codeclimate.com/github/polinakren/frontend-project-44/maintainability)
 
-## Описание проекта
-__"Игры разума"__ : проект состоит из 5 консольных игр. Каждая игра задает 3 вопроса, на которые нужо дать правильные ответы. Если вы ответили на все вопросы, то вы прошли игру. В случае неправильного ответа игра завершается.
+## ✨ Description
+__"Brain Games"__ : the project consists of 5 console games. Each game presents 3 questions that require correct answers. If you answer all the questions correctly, you pass the game. In case of an incorrect answer, the game ends.
 
-### Установка
+## 🖥 How to Install
+### System requirements
+Node.js v13 or higher
+
+### 🔨 Installation
 
 ```
-npm i
-```
-```
+git clone https://github.com/polinakren/frontend-project-44.git
+cd frontend-project-44
+make install
 npm link
 ```
 
-## Инструкция по запуску:
+## 📦 Launch Instructions:
 
-Запутить игру "Проверка на чётность":
+To start the "Even Check" game:
 
 ```
 brain-even
 ```
 
-Запутить игру "Калькулятор":
+To start the "Calculator" game:
 
 ```
 brain-calc
 ```
 
-Запутить игру "Наибольший общий делитель":
+To start the "Greatest Common Divisor" game:
 
 ```
 brain-gcd
 ```
 
-Запутить игру "Арифметическая прогрессия":
+To start the "Arithmetic Progression" game:
 
 ```
 brain-progression
 ```
 
-Запутить игру "Простое число?":
+To start the "Prime Number?" game:
 
 ```
 brain-prime
 ```
 
-## Игра: "Проверка на четность"
-### Описание игры:
-Пользователь получает случайно число. И ему нужно ответить "yes", если число чётное, или "no" — если нечётное.
-### Установка и запуск игры: __"brain-even"__
-
+## 🚀 Game: "Even Check"
+### Game Description:
+The user receives a random number and must respond with "yes" if the number is even or "no" if it is odd.
+### Installation and launch of the Game: 
 [![asciicast](https://asciinema.org/a/Iemv1n64oexx8YAKRdC9I4Wzt.svg)](https://asciinema.org/a/Iemv1n64oexx8YAKRdC9I4Wzt)
 
-## Игра: "Калькулятор"
-### Описание игры:
-Пользователь получает случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
-### Запуск игры: __"brain-calc"__
+## 🚀 Game: "Calculator"
+### Game Description:
+The user receives a random mathematical expression, for example, 35 + 16, which they need to calculate and write down the correct answer.
+### Launch of the Game: 
 [![asciicast](https://asciinema.org/a/b7LNt4BdKHGG6u1WnA9vbRdfX.svg)](https://asciinema.org/a/b7LNt4BdKHGG6u1WnA9vbRdfX)
 
-## Игра: "НОД"
-### Описание игры:
-Пользователь получает два случайных числа, например, 25 50. И он должен вычислить и ввести наибольший общий делитель этих чисел.
-### Запуск игры: __"brain-gcd"__
+## 🚀 Game: "Greatest Common Divisor"
+### Game Description:
+The user receives two random numbers, for example, 25 and 50. They must calculate and enter the greatest common divisor of these numbers.
+### Launch of the Game: 
 [![asciicast](https://asciinema.org/a/H6uOTR84mVNUjvJWkICM6aSbT.svg)](https://asciinema.org/a/H6uOTR84mVNUjvJWkICM6aSbT)
 
-## Игра: "Арифметическая прогрессия"
-### Описание игры:
-Пользователь получает ряд чисел, образующий арифметическую прогрессию, в котором одно число заменено двумя точками. Игрок должен определить это число.
-### Запуск игры: __"brain-progression"__
+## 🚀 Game: "Arithmetic Progression"
+### Game Description:
+The user is given a series of numbers forming an arithmetic progression, in which one number is replaced by two dots. The player must determine this number.
+### Launch of the Game: 
 [![asciicast](https://asciinema.org/a/N6lo3I0DENbIppq4S79h73rWy.svg)](https://asciinema.org/a/N6lo3I0DENbIppq4S79h73rWy)
 
-## Игра: "Простое число?"
-### Описание игры:
-Пользователь получает случайно число. И ему нужно ответить "yes", если число простое, или "no" — если не простое.
-### Запуск игры: __"brain-prime"__
+## 🚀 Game: "Prime Number?"
+### Game Description:
+The user receives a random number and must respond with "yes" if the number is prime, or "no" if it is not prime.
+### Launch of the Game: 
 [![asciicast](https://asciinema.org/a/OOBwsMZFo3UaBnIYkDBjrUFoP.svg)](https://asciinema.org/a/OOBwsMZFo3UaBnIYkDBjrUFoP)
