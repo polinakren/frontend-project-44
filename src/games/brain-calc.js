@@ -1,5 +1,5 @@
 import main from '../index.js';
-import getRandomNumber from '../utils.js';
+import { generateRandomNumber } from '../utils.js';
 
 const rule = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
@@ -20,9 +20,9 @@ const calculate = (num1, num2, operator) => {
 };
 
 const beginRound = () => {
-  const randomOperatorIndex = operators[getRandomNumber(0, operators.length - 1)];
-  const number1 = getRandomNumber(minRange, maxRange);
-  const number2 = getRandomNumber(minRange, maxRange);
+  const randomOperatorIndex = operators[generateRandomNumber(0, operators.length - 1)];
+  const number1 = generateRandomNumber(minRange, maxRange);
+  const number2 = generateRandomNumber(minRange, maxRange);
 
   const question = `${number1} ${randomOperatorIndex} ${number2}`;
   const correctAnswer = String(calculate(number1, number2, randomOperatorIndex));

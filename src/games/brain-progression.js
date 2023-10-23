@@ -1,5 +1,5 @@
 import main from '../index.js';
-import generateRandomNumber from '../utils.js';
+import { generateRandomNumber } from '../utils.js';
 
 const rule = 'What number is missing in the progression?';
 const minLength = 5;
