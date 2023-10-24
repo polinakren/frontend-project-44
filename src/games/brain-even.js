@@ -1,17 +1,17 @@
-import main from '../index.js';
+import startGame from '../index.js';
 import { generateQuestionAndAnswer } from '../utils.js';
 
 const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 const minRange = 1;
 const maxRange = 100;
 
-const isEven = (number) => number % 2 === 0;
+const checkIsEven = (number) => number % 2 === 0;
 
-const beginRound = () => {
-  const [question, correctAnswer] = generateQuestionAndAnswer(minRange, maxRange, isEven);
+const startRound = () => {
+  const [question, correctAnswer] = generateQuestionAndAnswer(minRange, maxRange, checkIsEven);
   return [question, correctAnswer];
 };
 
-const brainEvenGame = () => main(rule, beginRound);
+const runBrainEvenGame = () => startGame(rule, startRound);
 
-export default brainEvenGame;
+export default runBrainEvenGame;

@@ -1,4 +1,4 @@
-import main from '../index.js';
+import startGame from '../index.js';
 import { generateRandomNumber } from '../utils.js';
 
 const rule = 'What is the result of the expression?';
@@ -19,7 +19,7 @@ const calculate = (num1, num2, operator) => {
   }
 };
 
-const beginRound = () => {
+const startRound = () => {
   const randomOperatorIndex = operators[generateRandomNumber(0, operators.length - 1)];
   const number1 = generateRandomNumber(minRange, maxRange);
   const number2 = generateRandomNumber(minRange, maxRange);
@@ -30,6 +30,6 @@ const beginRound = () => {
   return [question, correctAnswer];
 };
 
-const brainCalcGame = () => main(rule, beginRound);
+const runBrainCalcGame = () => startGame(rule, startRound);
 
-export default brainCalcGame;
+export default runBrainCalcGame;

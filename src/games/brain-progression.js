@@ -1,4 +1,4 @@
-import main from '../index.js';
+import startGame from '../index.js';
 import { generateRandomNumber } from '../utils.js';
 
 const rule = 'What number is missing in the progression?';
@@ -15,7 +15,7 @@ const getProgression = (start, step, length, hiddenIndex) => {
   return progression.join(' ');
 };
 
-const beginRound = () => {
+const startRound = () => {
   const startNumber = generateRandomNumber(minRange, maxRange);
   const step = generateRandomNumber(minStep, maxStep);
   const length = generateRandomNumber(minLength, maxLength);
@@ -27,6 +27,6 @@ const beginRound = () => {
   return [question, correctAnswer];
 };
 
-const brainProgressionGame = () => main(rule, beginRound);
+const runBrainProgressionGame = () => startGame(rule, startRound);
 
-export default brainProgressionGame;
+export default runBrainProgressionGame;
